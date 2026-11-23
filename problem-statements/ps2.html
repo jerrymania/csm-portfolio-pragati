@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PS2 · Material Procurement, QC, Storage &amp; Accounts System — Pragati Patel</title>
+<meta name="description" content="Pragati Patel (USN 01FE23BCV012) · CSM problem statement 2: Material Procurement, QC, Storage &amp; Accounts System.">
+<meta name="author" content="Pragati Patel">
+<meta property="og:title" content="PS2 · Material Procurement, QC, Storage &amp; Accounts System — Pragati Patel">
+<meta property="og:description" content="Pragati Patel (USN 01FE23BCV012) · CSM problem statement 2: Material Procurement, QC, Storage &amp; Accounts System.">
+<meta name="theme-color" content="#191C1F">
+<link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/css/main.css">
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="progress" aria-hidden="true"></div>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="../index.html" aria-label="Pragati Patel — portfolio home"><span class="mk">PP</span><span><b>Pragati Patel</b><small>Construction Site Management Practice</small></span></a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="site-nav">Menu</button>
+  <nav id="site-nav" class="nav" aria-label="Main"><a href="../index.html">Home</a><a href="ps1.html">PS1</a><a href="ps2.html" aria-current="page">PS2</a><a href="ps3.html">PS3</a><a href="ps4.html">PS4</a><a href="ps5.html">PS5</a><a href="ps6.html">PS6</a></nav>
+</div></header><main id="main"><header class="ps-hero" data-n="2" style="--accent:var(--ochre)"><div class="wrap">
+  <div class="crumb"><a href="../index.html">Portfolio</a> / <a href="../index.html#problems">Problem statements</a> / PS2</div>
+  <div class="kick">Problem statement 2 of 6</div>
+  <h1>Material Procurement, QC, Storage & Accounts System</h1>
+  <p class="sub">A material system built on quality gates and traceable records, so control does not depend on one inexperienced store manager.</p>
+  <div class="src"><b>Source</b> PS2_Material_Procurement_System.pptx</div>
+</div></header><div class="wrap ps-layout"><aside class="toc" aria-label="On this page"><h4>On this page</h4><a href="#problem">Problem</a><a href="#zones">Store zones</a><a href="#gates">Gates</a><a href="#documents">Invoice & match</a><a href="#inspection">Inspection</a><a href="#inventory">Inventory</a><a href="#setup">15-day setup</a><a href="#mom">Minutes</a><a href="#risks">Limitations</a><a href="#conclusion">Conclusion</a><a href="#source">Source note</a></aside><div class="ps-main"><section id="problem"><div class="sec-head reveal"><div class="no">01</div><div><h2>Problem and context</h2></div></div>
+<p class="lead">Design a self-running material-management system that an inexperienced store manager can operate, with minimal intervention from the Project Manager. <span class="tag src">Source</span></p>
+<div class="facts"><div><div class="v">7<small>blocks</small></div><div class="l">Shopping mall, Hubballi</div></div><div><div class="v">8<small>acres</small></div><div class="l">Site</div></div><div><div class="v">~12,000<small>m³</small></div><div class="l">Concrete</div></div><div><div class="v">15<small>days</small></div><div class="l">Setup window</div></div></div></section><section id="zones"><div class="sec-head reveal"><div class="no">02</div><div><h2>Store zoning</h2></div></div>
+<div class="grid g4"><div class="card "><div style="font:italic 400 3rem/1 var(--serif);color:var(--ochre)">A</div><h3>Covered store</h3><p class="small muted" style="margin:0">Cement, binding wire, electrodes, admixtures</p></div><div class="card "><div style="font:italic 400 3rem/1 var(--serif);color:var(--ochre)">B</div><h3>Tools</h3><p class="small muted" style="margin:0"></p></div><div class="card "><div style="font:italic 400 3rem/1 var(--serif);color:var(--ochre)">C</div><h3>Equipment shed</h3><p class="small muted" style="margin:0"></p></div><div class="card "><div style="font:italic 400 3rem/1 var(--serif);color:var(--ochre)">D</div><h3>Safety gear</h3><p class="small muted" style="margin:0"></p></div><div class="card "><div style="font:italic 400 3rem/1 var(--serif);color:var(--ochre)">E</div><h3>Open yard</h3><p class="small muted" style="margin:0"></p></div><div class="card "><div style="font:italic 400 3rem/1 var(--serif);color:var(--ochre)">F</div><h3>Steel yard</h3><p class="small muted" style="margin:0"></p></div><div class="card ochre"><div style="font:italic 400 3rem/1 var(--serif);color:var(--ochre)">G</div><h3>Hazardous-material store</h3><p class="small muted" style="margin:0"></p></div><div class="card laterite"><div style="font:italic 400 3rem/1 var(--serif);color:var(--ochre)">H</div><h3>Quarantine bay</h3><p class="small muted" style="margin:0">Material awaiting decision or rejected</p></div></div>
+<p class="small muted" style="margin-top:12px">Zone labels exactly as in the deck <span class="tag src">Source</span>.</p></section><section id="gates"><div class="sec-head reveal"><div class="no">03</div><div><h2>Gate and vehicle controls</h2></div></div>
+<div class="grid g2">
+<div class="card slate"><h3>Gate A — ingress</h3><ul class="tight"><li>Vehicle recorded on entry</li><li>Weighbridge</li><li>ANPR / photo capture of the number plate</li><li>Purchase order required for entry</li></ul></div>
+<div class="card ochre"><h3>Gate B — egress</h3><ul class="tight"><li>Exit recorded</li><li>Gate pass checked before the vehicle leaves</li></ul></div>
+</div>
+<p class="small">ANPR, CCTV, the weighbridge and software are the <b>proposed controls</b> in the deck <span class="tag prop">Proposed</span>; none is claimed to be installed.</p></section><section id="documents"><div class="sec-head reveal"><div class="no">04</div><div><h2>Invoice triplicate and three-way match</h2></div></div>
+<div class="grid g3">
+<div class="card "><h3>Copy → Accounts</h3><p>For the three-way match and payment.</p></div>
+<div class="card "><h3>Copy → Store Manager</h3><p>For receipt, inspection and the GRN.</p></div>
+<div class="card "><h3>Copy → Security</h3><p>For the gate record.</p></div>
+</div>
+<div class="formula">Three-way match:  Purchase Order  =  GRN  =  Invoice   →  payment</div></section><section id="inspection"><div class="sec-head reveal"><div class="no">05</div><div><h2>Receipt inspection — ACCEPT or REJECT</h2></div></div>
+<ol class="steps"><li><div><b>Receive</b>Vehicle at Gate A with PO and invoice; weighbridge and plate capture.</div></li><li><div><b>Inspect</b>Material checks at receipt.</div></li><li><div><b>ACCEPT</b>Unload to the designated zone; GRN raised.</div></li><li><div><b>REJECT</b>Move to the quarantine bay (Zone H); material note raised; return through Gate B with a gate pass.</div></li></ol>
+<h4 style="margin-top:22px">Material checks covered in the deck</h4>
+<div class="grid g4"><div class="card "><h3>Cement</h3></div><div class="card "><h3>TMT steel</h3></div><div class="card "><h3>Aggregates / sand</h3></div><div class="card "><h3>RMC</h3></div></div>
+<p class="small muted">The specific checks for each material are listed on the deck's inspection slide.</p></section><section id="inventory"><div class="sec-head reveal"><div class="no">06</div><div><h2>Storage, issue and reconciliation</h2></div></div>
+<div class="grid g3">
+<div class="card "><h3>Records</h3><ul class="tight"><li>Bin cards</li><li>Material requisition slips</li></ul></div>
+<div class="card "><h3>Reconciliation</h3><ul class="tight"><li>Daily, weekly and monthly stock reconciliation</li></ul></div>
+<div class="card "><h3>Replenishment</h3><ul class="tight"><li>Reorder levels</li><li>Lead time</li></ul></div>
+</div></section><section id="setup"><div class="sec-head reveal"><div class="no">07</div><div><h2>Delegation and the 15-day setup</h2></div></div>
+<div class="grid g2">
+<div class="card moss"><h3>Minimal PM intervention</h3><ul class="tight"><li>Delegated approval limits</li><li>Exception reporting to the Project Manager</li></ul></div>
+<div class="card ochre"><h3>15-day setup window</h3><ul class="tight"><li>Day-1 training</li><li>Mock delivery run before go-live</li></ul></div>
+</div></section><section id="mom"><div class="sec-head reveal"><div class="no">08</div><div><h2>Minutes of <em>meeting</em></h2></div></div><div class="mom reveal">
+  <div class="mom-top"><b>PS2 — material system set-up</b><span class="lbl">Illustrative Minutes of Meeting — prepared for academic presentation</span></div>
+  <div class="mom-body">
+    <dl><dt>Subject</dt><dd>PS2 — material system set-up</dd><dt>Date</dt><dd>Not provided</dd><dt>Venue</dt><dd>Not provided</dd>
+    <dt>Attendees</dt><dd>Project Manager, Store Manager, QA/QC Engineer, Security Supervisor, Accounts <span class="muted small">(role-based, illustrative)</span></dd></dl>
+    <div class="grid g2"><div><h4>Agenda</h4><ul class="tight"><li>Store zones A–H</li><li>Gate A / Gate B controls</li><li>Invoice triplicate and three-way match</li><li>Inspection and quarantine</li><li>15-day setup</li></ul></div><div><h4>Discussion summary</h4><ul class="tight"><li>Zones A–H agreed as the store layout basis</li><li>Gate A ingress with PO check; Gate B egress with gate pass</li><li>Rejected material to Zone H with a material note</li></ul></div></div>
+    <div><h4>Decisions / recommendations</h4><ul class="tight"><li>Adopt the deck's store zoning and gate logic</li><li>Pay only after PO = GRN = invoice</li><li>Run a mock delivery before go-live</li></ul></div>
+    <div><h4>Action register</h4><div class="tbl"><table><thead><tr><th class="">#</th><th class="">Action</th><th class="">Proposed owner</th><th class="">Due point</th></tr></thead><tbody><tr><td class="">1</td><td class="">Mark zones A–H on site</td><td class="">Store Manager</td><td class="">Setup days 1–5</td></tr><tr><td class="">2</td><td class="">Prepare bin cards, requisition slips and gate-pass formats</td><td class="">Store Manager</td><td class="">Setup days 1–5</td></tr><tr><td class="">3</td><td class="">Agree delegated approval limits</td><td class="">Project Manager</td><td class="">Before go-live</td></tr><tr><td class="">4</td><td class="">Train security, store and QA/QC staff</td><td class="">Store Manager</td><td class="">Day 1</td></tr><tr><td class="">5</td><td class="">Mock delivery run</td><td class="">QA/QC Engineer</td><td class="">Before day 15</td></tr></tbody></table></div></div>
+    <div><h4>Open issues — require confirmation</h4><ul class="tight"><li>Whether ANPR / weighbridge will be procured</li><li>Reorder levels per material</li><li>Approval limit values</li></ul></div>
+    <p class="small muted" style="margin:0">No minutes of meeting were found in the source material for this problem statement, so these minutes are authored from the presentation's content. They do not record an actual meeting.</p>
+  </div>
+</div></section><section id="risks"><div class="sec-head reveal"><div class="no">09</div><div><h2>Assumptions and limitations</h2></div></div>
+<ul class="tight"><li>Automation (ANPR, CCTV, weighbridge, software) is proposed, not installed</li><li>Approval limits and reorder levels are to be set by the project</li><li>Material checks follow the deck's inspection slide</li></ul></section><section id="conclusion"><div class="sec-head reveal"><div class="no">10</div><div><h2>Reflection &amp; <em>conclusion</em></h2></div></div><p class="lead">What stands out to me in PS2 is how much of the control is built into the documents rather than into one person. An inexperienced store manager does not have to remember everything — the PO, the inspection decision, the GRN and the three-way match each act as a gate that material and money must pass.</p>
+<div class="grid g2">
+<div class="card slate"><h3>Observations</h3><ul class="tight"><li>Traceability starts at the gate: no PO, no entry — so every later record has something to match against.</li><li>The quarantine bay (Zone H) separates a doubtful load physically, which is stronger than separating it only on paper.</li><li>The invoice triplicate gives Accounts, the Store Manager and Security independent copies, so no single copy can be quietly altered.</li><li>Delegated limits and exception reporting are what actually reduce the Project Manager's involvement.</li></ul></div>
+<div class="card ochre"><h3>Key takeaways</h3><ul class="tight"><li>Accountability is designed into the workflow, not left to experience.</li><li>Quality is checked before a GRN exists, never after.</li><li>A mock delivery run in the 15-day window tests the system before real material arrives.</li></ul></div>
+</div>
+<p class="small muted" style="margin-top:14px">Team conclusion retained: entry at Gate A against a PO, inspection before GRN, rejected loads to quarantine and out by Gate B, payment only after a three-way match. ANPR, weighbridge and software remain proposals.</p></section><section id="source"><div class="sec-head reveal"><div class="no">Source</div><div><h2>Source note and limitations</h2></div></div><div class="note"><b>Source note.</b> This page follows <span class='mono'>PS2_Material_Procurement_System.pptx (7 slides)</span>. The presentation file itself was not available when the site was built; content is taken from the slide-by-slide source notes in the team's portfolio brief. Values are reproduced as stated there — check against the deck before submission.</div></section></div></div><nav class="pager wrap" aria-label="Problem statements"><a href="ps1.html"><small>← Previous · PS1</small><span>Approvals, Site Layout and Project Duration</span></a><a class="nx" href="ps3.html"><small>Next · PS3 →</small><span>Surveying Plan & Work Management System</span></a></nav></main><footer class="site-foot"><div class="wrap">
+  <div class="cols">
+    <div><b>Pragati Patel</b>Civil Engineering · KLE Technological University<br>Roll No. 158 · USN 01FE23BCV012<br>Construction Site Management Practice (CSM) portfolio<p style="margin-top:14px"><a href="../index.html">← Back to portfolio</a></p></div>
+    <div><h4>Problem statements</h4><a href="ps1.html">PS1 · Approvals, Site Layout and Project Duration</a><a href="ps2.html">PS2 · Material Procurement, QC, Storage & Accounts System</a><a href="ps3.html">PS3 · Surveying Plan & Work Management System</a></div>
+    <div><h4>&nbsp;</h4><a href="ps4.html">PS4 · Reducing Wastage of Steel and Formwork</a><a href="ps5.html">PS5 · Optimum Labour Force Through the Stages of Construction</a><a href="ps6.html">PS6 · Concrete Cube Failure: Causes, Prevention and Responsibility</a></div>
+  </div>
+  <div class="base">Content follows the six source presentations named on each page. Proposals, estimates and illustrative examples are labelled as such. © <span data-year>2026</span> Pragati Patel.</div>
+</div></footer>
+<dialog class="lb" id="lb" aria-label="Enlarged image"><button type="button">Close ✕</button><img src="data:," alt=""><p></p></dialog>
+<script src="../assets/js/main.js" defer></script>
+</body></html>
