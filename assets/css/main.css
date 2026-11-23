@@ -1,5 +1,5 @@
-/* ==========================================================================
-   Pragati Patel — CSM portfolio
+﻿/* ==========================================================================
+   Pragati Patil — CSM portfolio
    "Night pour": deep basalt canvas, molten amber, cyan survey light, glass panels.
    ========================================================================== */
 @font-face{font-family:"Instrument Serif";font-style:normal;font-weight:400;font-display:swap;src:url("../fonts/instrument-serif-latin-400-normal.woff2") format("woff2")}
@@ -296,7 +296,7 @@ dialog.lb button{position:absolute;top:10px;right:10px;background:var(--grad);bo
 .pager .nx{text-align:right}
 @media (max-width:620px){.pager{grid-template-columns:1fr}.pager .nx{text-align:left}}
 .site-foot{position:relative;overflow:hidden;border-top:1px solid var(--line-2);background:linear-gradient(180deg,rgba(255,255,255,.02),#000);color:var(--ink-2);padding:70px 0 34px;font-size:.92rem}
-.site-foot::before{content:"Pragati Patel";position:absolute;left:50%;bottom:-0.24em;transform:translateX(-50%);white-space:nowrap;font:italic 400 clamp(5rem,15vw,15rem)/1 var(--serif);color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.07);pointer-events:none}
+.site-foot::before{content:"Pragati Patil";position:absolute;left:50%;bottom:-0.24em;transform:translateX(-50%);white-space:nowrap;font:italic 400 clamp(5rem,15vw,15rem)/1 var(--serif);color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.07);pointer-events:none}
 .site-foot .cols{position:relative;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:34px}
 .site-foot b{font:400 2rem/1.1 var(--serif);color:#fff;display:block;margin-bottom:10px}
 .site-foot a{color:var(--ink-2);text-decoration:none;display:block;padding:4px 0}

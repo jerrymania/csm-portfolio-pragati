@@ -1,4 +1,4 @@
-# Pragati Patel — Construction Site Management Practice (CSM) portfolio
+﻿# Pragati Patil — Construction Site Management Practice (CSM) portfolio
 
 Static website: plain HTML, CSS and a small optional JavaScript file. Fonts are bundled, so there are no external dependencies and nothing to build.
 

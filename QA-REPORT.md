@@ -1,9 +1,9 @@
-# QA report — Pragati Patel CSM portfolio
+﻿# QA report — Pragati Patil CSM portfolio
 
 Individual version of the team's CSM portfolio, adapted from the completed Ankush V Havaldar site (same team, same six problem statements, same design).
 
 ## Identity
-Pragati Patel · Roll No. 158 · USN 01FE23BCV012 · Civil Engineering · KLE Technological University — on the home page, header monogram (PP), page titles, metadata, footer, favicon, README and this report.
+Pragati Patil · Roll No. 158 · USN 01FE23BCV012 · Civil Engineering · KLE Technological University — on the home page, header monogram (PP), page titles, metadata, footer, favicon, README and this report.
 A full-text search of the site for "Ankush", "Havaldar", "01FE22BCV007", "AVH" and the old image names returns nothing.
 
 ## Pages
